@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MainSource</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="Data" />
+
+    <string name="action_logout"> Log Out</string>
+
+    <string name="facebook_app_id">323527651509737</string>
+    <string name="fb_login_protocol_scheme">fb323527651509737</string>
+
+</resources>

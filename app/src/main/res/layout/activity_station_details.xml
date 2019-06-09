@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.projects.mainsource.StationDetails"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="casual"
+                        android:text="Details"
+                        android:textStyle="bold" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:clickable="false"
+                        android:editable="false"
+                        >
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="casual"
+                            android:clickable="false"
+                            android:editable="false"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:inputType="textMultiLine"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:hint=" Address"
+
+                            />
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+                </TableRow>
+
+
+                <TableRow>
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:clickable="false"
+                        android:editable="false"
+                     >
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/smno"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="casual"
+                            android:clickable="false"
+                            android:editable="false"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:layout_marginRight="10dp"
+                            android:inputType="number"
+                            android:layout_marginLeft="10dp"
+                            android:hint="Station Timing" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+
+                </TableRow>
+                <TableRow>
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:clickable="false"
+                        android:editable="false"
+></android.support.design.widget.TextInputLayout>
+
+
+
+
+                </TableRow>
+
+
+
+                <TableRow>
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:clickable="false"
+                        android:editable="false">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/scool"
+                            android:fontFamily="casual"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:layout_marginRight="10dp"
+                            android:clickable="false"
+                            android:editable="false"
+                            android:layout_marginLeft="10dp"
+                            android:hint="No. of Fillers" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"></LinearLayout>
+                </TableRow>
+
+
+
+
+
+            </TableLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
